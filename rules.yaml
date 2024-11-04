@@ -1,0 +1,18 @@
+%YAML 1.3
+---
+- Rule:
+  - Key: [Left Tilt, pressed]
+  - KeyPress:
+    - XF86_AudioLowerVolume
+    - click
+- Rule:
+  - Key: [Back Button, pressed]
+  - KeyPress:
+    - XF86_AudioRaiseVolume
+    - click
+- Rule:
+  - Key: [Right Tilt, pressed]
+  - KeyPress:
+    - [function, Control_L, F10]
+    - click
+...

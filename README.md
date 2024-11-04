@@ -1,3 +1,18 @@
+
+# Ubuntu files for Logitech M705 (same mapping on macbook)
+
+Copy the file from /home/rhushi/.config/solaar ( rules.yaml) for mouse settings/mappings
+
+config.yaml should get generated after following below instruction.
+
+copy the rules file using the command sudo -i
+
+this command will provide root access to copy the rules file.
+
+rules file is located at https://github.com/pwr-Solaar/Solaar/blob/master/rules.d/42-logitech-unify-permissions.rules
+
+
+
 # <img src="https://pwr-solaar.github.io/Solaar/img/solaar.svg" width="60px"/> Solaar
 
 Solaar is a Linux manager for many Logitech keyboards, mice, and other devices
